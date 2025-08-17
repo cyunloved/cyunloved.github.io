@@ -7,9 +7,19 @@ app = Flask(__name__)
 
 # 配置区 ========================================
 API_KEYS = [
-    "AIzaSyA1x_Key1",
-    "AIzaSyB2x_Key2",  # 填入10+个Gemini API Key
-    "AIzaSyC3x_Key3"
+    "AIzaSyD6QgrS8TvR3ZQ0QRPxJoR8MYHlZXyR_9c",
+    "AIzaSyBI8YCuZKimK8jSpwNvSuknAcfX2vqZbfk",  # 填入10+个Gemini API Key
+    "AIzaSyAXSa5YIJed7zujpAGnlZU2j5YMGEJ4odU"
+    "AIzaSyBmKZOs6zYxdlr2yAvxH6_gvERo_q68OPQ"
+    "AIzaSyC6wjxf6FEz9Zh_PhVvpOJxcnWt2XaO6zU"
+    "AIzaSyD9DvLsRrViwhQSzF-i9H_rFnOtFNzGlR8"
+    "AIzaSyCwCwg0lGJfAwUke_J28n5j0AZdEOXLuGg"
+    "AIzaSyBQl6P1WVlK1EVLVNWtCWJAukyaoHTuGTI"
+    "AIzaSyB7JWMK9oYaIdrnAsV6iVSrI3UrQh9N5O8"
+    "AIzaSyAAYsEH17IvzVaKawWiDlY0ZM-EcGiMkF0"
+    "AIzaSyBjKfdldHSM33zrKn7gYj20Nbp-G1e_tSg"
+    "AIzaSyAVpD6AhVTNfIVMXG_4n5dTrCyycENovL4"
+    
 ]
 USE_PROXY = True  # 是否启用代理IP轮换
 PROXY_API = "http://api.proxy.com/get?format=json&num=5"  # 代理IP供应商接口
